@@ -1,0 +1,65 @@
+
+
+body{
+    
+    background-image: url('../assets/home.png');
+    background-repeat: no-repeat;
+  /* background-position: center; */
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  .ancient{
+    width: 200px;
+    height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: 200px; */
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.cards{
+  /* margin-to; */
+}
+button{
+  width: 200px;
+  height: 50px;
+  background-color: rgb(101, 4, 4);
+  border-radius: 15px;
+}
+.shuffle__button{
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 227px;
+  margin-right: 74px;
+}
+button:hover{
+  cursor: pointer;
+}
+button:active{
+  width: 199px;
+  height: 49px;
+  background-color: rgb(37, 37, 37);
+}
+.shuffle{
+  margin-top: 400px;
+}
+.ancient{
+  width: 200px;
+}
+.ancient:hover{
+cursor: pointer;
+}
+.nameStage{
+  color: blueviolet;
+}
+.changeCard{
+  display: none;
+}
+.active{border: 1px solid red
+
+}
