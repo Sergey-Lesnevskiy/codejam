@@ -1,65 +1,64 @@
-
-
-body{
-    
-    background-image: url('../assets/home.png');
-    background-repeat: no-repeat;
-  /* background-position: center; */
-}
 img {
-    max-width: 100%;
-    height: auto;
-  }
-  .ancient{
-    width: 200px;
-    height: 300px;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-image: url("assets/home.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.ancient {
+  width: 200px;
+  height: 300px;
   background-repeat: no-repeat;
   background-position: center;
   /* background-size: 200px; */
 }
 
-.wrapper{
+.wrapper {
   display: flex;
   justify-content: space-between;
 }
-.cards{
+.cards {
   /* margin-to; */
 }
-button{
+button {
   width: 200px;
   height: 50px;
   background-color: rgb(101, 4, 4);
   border-radius: 15px;
 }
-.shuffle__button{
+.shuffle__button {
   width: 100px;
   border-radius: 50%;
   margin-top: 227px;
   margin-right: 74px;
 }
-button:hover{
+button:hover {
   cursor: pointer;
 }
-button:active{
+button:active {
   width: 199px;
   height: 49px;
   background-color: rgb(37, 37, 37);
 }
-.shuffle{
+.shuffle {
   margin-top: 400px;
 }
-.ancient{
+.ancient {
   width: 200px;
 }
-.ancient:hover{
-cursor: pointer;
+.ancient:hover {
+  cursor: pointer;
 }
-.nameStage{
+.nameStage {
   color: blueviolet;
 }
-.changeCard{
+.changeCard {
   display: none;
 }
-.active{border: 1px solid red
-
+.active {
+  border: 1px solid red;
 }
