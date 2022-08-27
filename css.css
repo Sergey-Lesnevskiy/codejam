@@ -6,7 +6,8 @@ body {
   background-image: url("assets/home.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 100vh;
+  background-size: cover;
+  height: 90vh;
 }
 
 .ancient {
@@ -31,10 +32,11 @@ button {
   border-radius: 15px;
 }
 .shuffle__button {
+  display: none;
   width: 100px;
   border-radius: 50%;
-  margin-top: 227px;
-  margin-right: 74px;
+  margin-top: 180px;
+  margin-right: 97px;
 }
 button:hover {
   cursor: pointer;
@@ -61,4 +63,7 @@ button:active {
 }
 .active {
   border: 1px solid red;
+}
+.check{
+  color:rgb(235, 87, 87)
 }
