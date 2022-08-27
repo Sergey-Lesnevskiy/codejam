@@ -91,7 +91,7 @@ function changeCards(stageOder, numberPicture, numberStage) {
     stageOder[numberStage].length
   );
   if (numberPicture > stageOder[numberStage].length - 1) {
-    cardImg.src = "../assets/mythicCardBackground.png";
+    cardImg.src = "assets/mythicCardBackground.png";
     document.querySelector(
       `.nameStage${numberStage}`
     ).innerHTML = `закончилась стадия - ${numberStage + 1}`;
@@ -100,7 +100,7 @@ function changeCards(stageOder, numberPicture, numberStage) {
     numberStageOut++;
 
     if (numberStageOut >= stageOder.length) {
-      cardImg.src = "../assets/mythicCardBackground.png";
+      cardImg.src = "assets/mythicCardBackground.png";
      
       changeCard.style.display = "none";
       numberStageOut = 0;
